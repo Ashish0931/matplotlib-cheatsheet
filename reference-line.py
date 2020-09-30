@@ -17,7 +17,7 @@ def split(n_segment):
 
 
 
-# Color
+# Colorplots 
 # ----------------------------------------------------------------------------
 X0, X1 = split(10)
 for i, (x0,x1) in enumerate(zip(X0,X1)):
@@ -31,7 +31,7 @@ ax.text(X1[-1]+0.25, y+0.2, "color / c", color="blue",
 
 y -= 1
 
-# Line width
+# setting up the line width
 # ----------------------------------------------------------------------------
 X0, X1 = split(5)
 LW = np.arange(1,6)
@@ -44,7 +44,7 @@ ax.text(X1[-1]+0.25, y+0.2, "linewidth / lw", color="blue",
          size="small", ha="right", va="baseline", family="monospace")
 y -= 1 
 
-# Solid capstyle
+# Solid capstyle graphs 
 # ----------------------------------------------------------------------------
 X0, X1 = split(3)
 styles = "butt", "round", "projecting"
